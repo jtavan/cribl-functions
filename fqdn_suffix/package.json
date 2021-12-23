@@ -1,0 +1,12 @@
+{
+    "name": "fqdn_suffix",
+    "version": "0.1.0",
+    "description": "Parse FQDNs into public suffix and subdomain etc.",
+    "main": "index.js",
+    "author": "Jeremy Tavan (jtavan@stanford.edu)",
+    "license": "MIT",
+    "dependencies": {
+        "psl": "^1.8.0"
+    },
+    "devDependencies": {}
+}

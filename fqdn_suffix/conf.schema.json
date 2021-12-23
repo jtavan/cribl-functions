@@ -1,0 +1,25 @@
+{
+    "title": "",
+    "type": "object",
+    "required": ["srcField", "dstField"],
+    "properties": {
+        "srcField": {
+            "title": "Source Field",
+            "description": "Field which contains the source FQDN to parse.",
+            "type": "string",
+            "default": "_raw"
+        },
+        "dstField": {
+            "title": "Destination Field",
+            "description": "Field name where parsed FQDN components will be placed.",
+            "type": "string"
+        },
+        "overwrite": {
+            "type": "boolean",
+            "title": "Overwrite Existing Fields",
+            "description": "Overwrite existing event fields with extracted values. If set to No, existing field will be renamed as 'oldvalue'",
+            "default": false
+        }
+    },
+    "dependencies": {}
+}
